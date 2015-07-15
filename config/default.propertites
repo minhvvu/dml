@@ -1,0 +1,55 @@
+
+# properties file (default.propertites)
+# distance metric leanring params
+
+#################################################
+# INPUT DATA SECTION
+
+# full path to database
+dataDir = /home/vvminh/WorkData/Wang/
+
+# matrix file
+inputDataFile = Wang_200.mat
+groundTruthFile = WangGroundTruth.txt
+
+# file contains list of constraintsFile
+# the programm will read this file
+# to obtain a list of constraintsFile
+listOfConstraintFile = WangConstraintsFiles.txt
+
+numberClusters = 10
+
+#################################################
+# OUTPUT RESULT SECTION
+
+# full path to result folder
+#resultDir = /home/vvminh/Git/dml/result/
+resultDir = /home/vvminh/Git/dml/plotting/data/
+resultFile = Wang_200_Result.json
+
+#################################################
+# EXPERIMENT CONTROL SECTION
+
+# the number of time to repeat one algorithm
+repeatTimes = 6
+
+#################################################
+# ALGORITHM PARAMS SECTION
+
+# constant to control the contribution of mustlink
+mustlinkConstraint = 0.05
+
+# constant to control the contribution of cannot link
+cannotlinkConstraint = 0.05
+
+# enable algorithm
+# PCKMEANS_NOMETRIC
+# MPCKMEANS_GLOBAL_DIAGONAL
+# MPCKMEANS_GLOBAL_FULL
+# MPCKMEANS_LOCAL_DIAGONAL
+# MPCKMEANS_LOCAL_FULL
+algo = PCKMEANS_NOMETRIC
+
+# params for running algo
+maxIteration = 20
+minObjectiveFunctionChange = 0.01
