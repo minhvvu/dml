@@ -2,23 +2,19 @@
 ## Distance Metric Learning Algorithms
 
 
-Here are [some results] (
-https://b737ecb57b59a9c5bb66be755376333adee28f85-www.googledrive.com/host/0BzwCgvJqBVkyfkU2UUp0djhXOEtJTHFfUTZ3TDlfTnZCcTlWSE5SdUFDTUNyZzNNdV85U2M/)
+Here are [some results] (https://minhvvu.github.io/demo/telecom1/web/index.html)
 
 
+*Dependences: *
 
-*How it works?*
+1. CMake
 
-1. Object Oriented Design Principles (Coding to Abstract, Polymorphism)
+2. C++11
 
-2. Using CMake
-
-3. Using C++11
-
-4. Using  [Eigen Library:](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+3. [Eigen Library:](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 
 
-System Design: 
+*System Design: *
 ![system diagram](https://github.com/minhvvu/dml/blob/master/systemDesign.png "Class Diagram")
 
 
