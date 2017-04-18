@@ -21,10 +21,4 @@ Here is the abstract of out work - *Viet Minh Vu, Hien Phuong Lai, Muriel Visani
 
 
 *System Design:*
-![system diagram](https://github.com/minhvvu/dml/blob/master/systemDesign.png "Class Diagram")
-
-
-*How to extend?*
-
-Inheritate the existed classes and add your code to into virtual functions which are called automatically.
-
+![system diagram](https://github.com/minhvvu/dml/blob/master/systemDesign.png "Class Diagram"
